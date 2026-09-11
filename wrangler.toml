@@ -1,0 +1,13 @@
+name = "hayden-cool"
+main = "./worker.js"
+compatibility_date = "2026-09-11"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "notes-db"
+database_id = "77371c66-8d28-4dcf-bbbf-3d805bfcbe39"
